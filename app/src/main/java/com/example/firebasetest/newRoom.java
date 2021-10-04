@@ -37,7 +37,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 // TODO: fix "guests in room" tv, right now there is a bad allocation mechanism.
 // TODO: i shouldn't be able to start a public game with 0 guests.
 // TODO: close all open listeners upon room closure.
-
+// ggggggggg
 public class newRoom extends AppCompatActivity {
 
     private String roomName = "";
