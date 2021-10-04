@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".publicRooms"
+    android:background="@color/purple_200"
+    android:id="@+id/source_rooms_layout">
+
+    <LinearLayout
+        android:id="@+id/search_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:background="@color/purple_200">
+
+        <EditText
+            android:id="@+id/search_bar_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:hint="Enter a text to filter results" />
+
+        <Button
+            android:id="@+id/clear_searchbar_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="clear filter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/room1_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="90dp"
+        android:visibility="gone"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/room1_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ready_room1_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="ready?" />
+
+        <Button
+            android:id="@+id/join_room1_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Join!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/room2_layout"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/room2_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ready_room2_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="ready?" />
+
+        <Button
+            android:id="@+id/join_room2_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Join!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/room3_layout"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/room3_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ready_room3_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="ready?" />
+
+        <Button
+            android:id="@+id/join_room3_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Join!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/room4_layout"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/room4_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ready_room4_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="ready?" />
+
+        <Button
+            android:id="@+id/join_room4_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Join!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/room5_layout"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/room5_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ready_room5_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="ready?" />
+
+        <Button
+            android:id="@+id/join_room5_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Join!" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loading_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="...Finding the best games..."
+        android:gravity="center"/>
+
+</LinearLayout>

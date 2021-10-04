@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307587177831",
+    "firebase_url": "https://testproject-bbfbe-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "testproject-bbfbe",
+    "storage_bucket": "testproject-bbfbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307587177831:android:9926f7eea5828b0871e3c2",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307587177831-m9fraro6hsct39dmc6h09mb6n515l3i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgnE_QGPbqNTBRbEcLmb7sorK3awQgg4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307587177831-m9fraro6hsct39dmc6h09mb6n515l3i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
