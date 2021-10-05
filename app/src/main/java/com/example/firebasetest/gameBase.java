@@ -44,6 +44,7 @@ public class gameBase extends AppCompatActivity {
         Button leaveGame = findViewById(R.id.leave_game);
         TextView lifeDisplay = findViewById(R.id.lifeDisplayTv);
         TextView coinDisplay = findViewById(R.id.coinsDisplayTv);
+        boolean fuckthis = true; // TODO: explain to eran !
 
         //////////////////////////////////////////////////////////////////////////
         // set up perks list view.
