@@ -56,6 +56,8 @@ public class newRoom extends AppCompatActivity {
     private EditText userInputEt;
     private TextInputLayout roomNameLayout;
     private Button makeRoomPublic;
+    ////ffffffff
+    Button test;
     private Button startTheGame;
     private TextView roomNameDisplay;
     private Button closeRoomBtn;
